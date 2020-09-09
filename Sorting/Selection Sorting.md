@@ -32,3 +32,20 @@ def selectionSort(x):
     x[indexMin], x[i] = x[i], x[indexMin]
   return x
 ```
+
+```java
+void selectionSort(int [] list){
+    for(int i=0;i<list.length-1;i++){
+      indexMin = i;
+      for(int j=i+1;j<length;j++){
+        if(list[indexMin] > list[j]){
+          indexMin = j;
+          }
+      temp = list[indexMin];
+      list[indexMin] = list[i];
+      list[i] = temp;
+      }
+    return list;
+    }
+      
+          ```
