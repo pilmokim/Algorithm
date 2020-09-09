@@ -19,8 +19,8 @@ http://stackoverflow.com/questions/4601057/why-is-selection-sort-not-stable
 
 
 
-'''python
 
+'''python
 def selectionSort(x):
   length = len(x)
   for i in range(length-1):
@@ -29,5 +29,4 @@ def selectionSort(x):
       if x[indexMin] > x[j]:
         x[indexMin], x[j] = x[j], x[indexMin]
   return x
-  
 '''
