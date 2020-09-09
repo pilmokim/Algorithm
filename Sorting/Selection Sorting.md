@@ -29,4 +29,5 @@ def selectionSort(x):
       if x[indexMin] > x[j]:
         x[indexMin], x[j] = x[j], x[indexMin]
   return x
+  
 '''
