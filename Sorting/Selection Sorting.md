@@ -27,6 +27,8 @@ def selectionSort(x):
     indexMin = i
     for j in range(i+1, length):
       if x[indexMin] > x[j]:
-        x[indexMin], x[j] = x[j], x[indexMin]
+        indexMin = j
+        
+    x[indexMin], x[i] = x[i], x[indexMin]
   return x
 ```
