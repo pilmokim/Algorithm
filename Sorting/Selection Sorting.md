@@ -17,6 +17,8 @@ http://stackoverflow.com/questions/4601057/why-is-selection-sort-not-stable
 
 출처: https://mygumi.tistory.com/94 [마이구미의 HelloWorld]
 
+
+
 '''python
 
 def selectionSort(x):
@@ -27,4 +29,4 @@ def selectionSort(x):
       if x[indexMin] > x[j]:
         x[indexMin], x[j] = x[j], x[indexMin]
   return x
-  '''
+'''
