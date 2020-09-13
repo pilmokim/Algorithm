@@ -14,3 +14,17 @@ def insertionSort(arr):
     arr[j+1] = key
   return arr
 ```
+```java
+
+int[] insertionSort(int arr[]){
+  for(int i=1;i<i.length;i++){
+    arr[i] = key;
+    j = i - 1;
+    while(j>=0 $$ key < arr[j]){
+      arr[j+1] = arr[j];
+      j -=1;
+      }
+    arr[j+1] = key;
+    }
+    }
+   ```
